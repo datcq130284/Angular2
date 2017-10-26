@@ -1,3 +1,8 @@
 <p>Inventory</p>
 
 <a class = "button" (click)="onBack()">Back to Products</a>
+
+<input [value] = "name" (input) = "name = $event.target.value">
+{{name}}
+
+<product-form></product-form>

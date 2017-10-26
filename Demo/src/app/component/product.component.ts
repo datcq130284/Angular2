@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IProduct } from '../data/products';
 import { ProductService } from '../data/products.service';
+//import { PaginatePipe, PaginationService } from 'ng2-pagination';
 
 @Component ({
    selector: 'my-app',
@@ -10,6 +11,7 @@ import { ProductService } from '../data/products.service';
 
 export   class   AppProduct  {
     iproducts: IProduct[];
+    newdate = new Date();
 
     constructor(private _product: ProductService) {
     }

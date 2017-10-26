@@ -11,4 +11,39 @@ export   class   AppInventory  {
     onBack(): void { 
         this._router.navigate(['/Product']); 
     } 
+
+    //Life Cycle
+    ngOnInit(){
+        console.log('ngOnInit');
+    }
+
+    ngDoCheck(){
+        console.log('ngDoCheck');
+    }
+
+    ngAfterContentInit(){
+        console.log('ngAfterContentInit');
+    }
+
+    ngAfterContentChecked(){
+        console.log('ngAfterContentChecked');
+    }
+
+    ngAfterViewInit(){
+        console.log('ngAfterViewInit');
+    }
+
+    ngAfterViewChecked(){
+        console.log('ngAfterViewChecked');
+    }
+
+    ngOnChanges(){
+        console.log('ngOnChanges');
+    }
+
+    ngOnDestroy(){
+        console.log('ngOnDestroy');
+    }
+
+
 }

@@ -1,8 +1,52 @@
-[{
+[
+ {
     "ProductID": 1,
-    "ProductName": "ProductA"
+    "ProductName": "Product 1",
+    "ProductImage": "app/images/1.png"
  },
  {
     "ProductID": 2,
-    "ProductName": "ProductB"
- }]
+    "ProductName": "Product 2",
+    "ProductImage": "app/images/2.png"
+ },
+ {
+    "ProductID": 3,
+    "ProductName": "Product 3",
+    "ProductImage": "app/images/3.png"
+ },
+ {
+    "ProductID": 4,
+    "ProductName": "Product 4",
+    "ProductImage": "app/images/4.png"
+ },
+ {
+    "ProductID": 5,
+    "ProductName": "Product 5",
+    "ProductImage": "app/images/5.png"
+ },
+ {
+    "ProductID": 6,
+    "ProductName": "Product 6",
+    "ProductImage": "app/images/1.png"
+ },
+ {
+    "ProductID": 7,
+    "ProductName": "Product 7",
+    "ProductImage": "app/images/2.png"
+ },
+ {
+    "ProductID": 8,
+    "ProductName": "Product 8",
+    "ProductImage": "app/images/3.png"
+ },
+ {
+    "ProductID": 9,
+    "ProductName": "Product 9",
+    "ProductImage": "app/images/4.png"
+ },
+ {
+    "ProductID": 10,
+    "ProductName": "Product 10",
+    "ProductImage": "app/images/5.png"
+ }
+]
