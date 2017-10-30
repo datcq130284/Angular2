@@ -7,14 +7,14 @@ import 'rxjs/add/operator/do';
 import 'rxjs/add/operator/catch';
 
 import { IProduct } from './products';
+import { AppConfigs } from '../configs/appConfig';
 
 @Injectable()
 export class ProductService {
-   private _producturl='app/data/products.json';
    constructor(private _http: Http){}
    
    getproducts(): Observable<IProduct[]> {
-      return this._http.get(this._producturl)
+      return this._http.get(AppConfigs.API_PRODUCT)
       .map((response: Response) => <IProduct[]> response.json())
       .do(data => console.log(JSON.stringify(data)))
       .catch(this.handleError); 
